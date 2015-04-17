@@ -4,6 +4,8 @@ import java.util.Date;
 
 public class TodoItem {
 	
+	
+	
 	public TodoItem(String name) {
 		this.id = ((int)Math.random() * 12300) + "";
 		this.name = name;
